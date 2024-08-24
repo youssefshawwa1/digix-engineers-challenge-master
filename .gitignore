@@ -1,6 +1,6 @@
+.gitignore
 node_modules
 __tests__
 Digix-Tab.png
 Digix-Mobile.png
 Digix-Desktop.png
-README.md
