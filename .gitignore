@@ -3,4 +3,10 @@ node_modules
 __tests__
 Digix-Tab.png
 Digix-Mobile.png
+<<<<<<< HEAD
 Digix-Desktop.png
+=======
+Digix-Desktop.png
+README.md
+.gitignore
+>>>>>>> parent of b0ca96f (revising)
