@@ -205,24 +205,27 @@ h3,
     color: rgb(170, 165, 165);
 }
 
-/* mobile
-______________________________ */
 
-@media screen and (width < 576px){
+
+/* for small screen by default */
+
 .navbar-toggler {
     width: 20%;
 }
-.flex {
+.flex, .flex-footer  {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 
 }
-.img {
+.play {
 
     display: block;
     text-align: center;
-    margin: 70% auto;
+    margin: 30px auto;
+    margin-top: 20%;
+    width: 60vw;
+
 }
 .container-fluid {
     min-height: 80vh;
@@ -236,4 +239,50 @@ section.flex {
 .smaller-text {
     font-size: 3.2em;
 }
+.find {
+    text-align: center;
+}
+
+
+/* for medium screens such as tablets */
+@media screen and (width > 576px) {
+
+.play {
+    width: 40vw;
+    margin-left: 0;
+}
+.container-fluid {
+    min-height: 40vh;
+}
+.flex-sm {
+    flex-direction: row;
+}
+.achievements-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10% 0;
+}
+.find {
+    text-align: left;
+}
+.hero-unit{
+    padding-right: 20%;
+}
+.show {
+    display: flex!important;
+    flex-direction: row;
+    
+}
+.flex-footer {
+    flex-direction: row;
+}
+.navbar-brand{
+    width: 75%;
+}
+}
+/* for larger screens such as laptops, PC ... */
+@media screen and (width > 768px) {
+    
 }
