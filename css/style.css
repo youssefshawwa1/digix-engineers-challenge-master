@@ -290,6 +290,9 @@ section.flex {
 .navbar-brand{
     width: 75%;
 }
+.navbar-brand img {
+    max-width: 100px;
+}
 }
 /* for larger screens such as laptops, PC ... */
 @media screen and (width > 768px) {
@@ -336,6 +339,7 @@ section.flex {
 }
 button.navbar-toggler {
     width: 8%;
+    max-width: 100px;
 }
 .navbar-brand {
     width: 50%;
