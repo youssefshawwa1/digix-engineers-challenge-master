@@ -293,6 +293,7 @@ section.flex {
 }
 /* for larger screens such as laptops, PC ... */
 @media screen and (width > 768px) {
+    
    .show-lg{
     display: block!important;
    }
@@ -333,6 +334,38 @@ section.flex {
     margin: 0 10px;
 
 }
+button.navbar-toggler {
+    width: 8%;
+}
+.navbar-brand {
+    width: 50%;
+}
 
+a.play {
+    width: 50%;
 
+}
+div > .flex > div:nth-child(2){
+    flex-shrink: 1.2;
+
+    max-height: 50%;
+}
+.find {
+
+ text-wrap: nowrap;
+}
+.show {
+    display: flex!important;
+    
+}
+footer .flex {
+    flex-direction: column;
+}
+.achievements-section > div {
+    width: 100%;
+    justify-content: space-around;
+}
+.achievements-section  {
+    justify-content: center;
+}
 }
